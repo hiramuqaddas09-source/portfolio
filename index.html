@@ -3,357 +3,503 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Hira Muqaddas - Software Engineering Student specializing in C++, cybersecurity, and full-stack development.">
-    <meta name="keywords" content="Software Engineer, C++, Cybersecurity, Portfolio, Internship">
+    <meta name="description" content="Hira Muqaddas - Software Engineering Student. Open to remote internships and entry-level opportunities. Specializing in C++ and problem-solving.">
+    <meta name="keywords" content="Software Engineer, C++, Portfolio, Internship, Student Developer">
     <meta name="author" content="Hira Muqaddas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hiramuqaddas09.com">
     <meta property="og:title" content="Hira Muqaddas | Software Engineering Student">
-    <meta property="og:description" content="Explore my portfolio showcasing projects in C++, web development, and cybersecurity.">
-    <meta property="og:image" content="https://hiramuqaddas09-source.github.io/og-image.png">
-    <meta property="og:url" content="https://hiramuqaddas09-source.github.io/">
-    <meta name="theme-color" content="#6c5ce7">
+    <meta property="og:description" content="Premium portfolio showcasing academic projects and technical skills.">
+    <meta property="og:image" content="https://hiramuqaddas09.com/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hira Muqaddas | Software Engineering Student">
+    <meta name="twitter:description" content="Premium portfolio showcasing academic projects and technical skills.">
+    <meta name="theme-color" content="#0F172A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
     <title>Hira Muqaddas | Software Engineering Student & Developer</title>
-
-    <link rel="stylesheet" href="style.css">
-    <link rel="canonical" href="https://hiramuqaddas09-source.github.io/">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="canonical" href="https://hiramuqaddas09.com">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='75' font-size='75' font-weight='bold' fill='%230F172A'%3EHM%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hira Muqaddas",
+      "url": "https://hiramuqaddas09.com",
+      "email": "hiramuqaddas09@gmail.com",
+      "sameAs": [
+        "https://github.com/hiramuqaddas09-source",
+        "https://www.linkedin.com/in/hira-muqaddas-cyber"
+      ],
+      "jobTitle": "Software Engineering Student",
+      "worksFor": {
+        "@type": "EducationalOrganization",
+        "name": "University of Sahiwal"
+      }
+    }
+    </script>
 </head>
-
 <body>
 
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<header role="banner">
+<!-- Navigation -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
     <div class="container">
-        <div class="logo">
-            <a href="#home">Hira Muqaddas</a>
+        <div class="navbar-brand">
+            <a href="#" class="logo" aria-label="Hira Muqaddas Home">HM</a>
         </div>
-
-        <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
         </button>
-
-        <nav role="navigation" aria-label="Main navigation">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <button id="darkMode" aria-label="Toggle dark mode" title="Toggle dark mode">
-                <i class="fas fa-moon" aria-hidden="true"></i>
-            </button>
-        </nav>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li>
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </li>
+        </ul>
     </div>
-</header>
+</nav>
 
 <main id="main-content">
 
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-left">
-                <h1>
-                    Hi, I'm <span class="highlight">Hira Muqaddas</span>
-                </h1>
-                <h2>Software Engineering Student</h2>
-                <p>
-                    Passionate about Software Development, Cybersecurity, and building practical applications. 
-                    Currently looking for remote internships and entry-level opportunities.
-                </p>
-                <div class="buttons">
-                    <a href="resume/Hira_Muqaddas_Final_Resume.pdf" class="btn" download>
-                        <i class="fas fa-download"></i> Download Resume
-                    </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i> Contact Me
-                    </a>
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">Hira Muqaddas</h1>
+            <p class="hero-subtitle">Software Engineering Student</p>
+            <p class="hero-description">Open to remote internships and entry-level opportunities. Passionate about C++, problem-solving, and building practical applications.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View My Work</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get In Touch</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-value">5+</span>
+                    <span class="stat-label">Projects</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">3.56</span>
+                    <span class="stat-label">CGPA</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value">5th</span>
+                    <span class="stat-label">Semester</span>
                 </div>
             </div>
-            <div class="hero-right" aria-hidden="true">
-                <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div class="hero-decoration">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Know me better</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a 5th-semester Software Engineering student at the University of Sahiwal with a strong passion for creating practical solutions through code. My journey in software development has equipped me with solid fundamentals in C++, problem-solving, and software design principles.</p>
+                <p>I thrive on challenges that require critical thinking and creative problem-solving. Whether it's building console applications with proper OOP principles or designing systems with efficient algorithms, I approach every project with dedication and attention to detail.</p>
+                <p>Beyond academics, I'm committed to continuous learning and staying updated with industry trends. I'm actively seeking remote internships and entry-level positions where I can contribute my skills and grow alongside experienced professionals.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-card-header">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <p class="stat-card-label">University</p>
+                    <p class="stat-card-value">Sahiwal</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-header">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <p class="stat-card-label">CGPA</p>
+                    <p class="stat-card-value">3.56/4.00</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-header">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <p class="stat-card-label">Current</p>
+                    <p class="stat-card-value">5th Semester</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-card-header">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <p class="stat-card-label">Graduation</p>
+                    <p class="stat-card-value">2028</p>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="about" class="about-section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>
-                I'm a Software Engineering student at the University of Sahiwal with a passion for solving real-world problems through technology. 
-                I specialize in backend development with C++ and have experience in full-stack web development.
-            </p>
-            <p>
-                My interests span cybersecurity, application development, and learning emerging technologies. 
-                I'm committed to continuous learning and actively seek opportunities to apply my skills in professional environments.
-            </p>
+<!-- Skills Section -->
+<section class="skills" id="skills">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">Technologies and competencies</p>
         </div>
-    </section>
-
-    <section id="skills" class="skills-section">
-        <div class="container">
-            <h2>Technical Skills</h2>
-            <div class="skills-grid">
-                <article class="skill-card">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
-                    <ul>
-                        <li>C++</li>
-                        <li>Object-Oriented Programming (OOP)</li>
-                        <li>File Handling</li>
-                        <li>CRUD Operations</li>
-                        <li>Data Structures</li>
-                    </ul>
-                </article>
-
-                <article class="skill-card">
-                    <h3><i class="fas fa-tools"></i> Development Tools</h3>
-                    <ul>
-                        <li>Git & GitHub</li>
-                        <li>Visual Studio Code</li>
-                        <li>Visual Studio</li>
-                        <li>Code::Blocks</li>
-                        <li>Command Line Interface</li>
-                    </ul>
-                </article>
-
-                <article class="skill-card">
-                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Responsive Design</li>
-                        <li>Git & GitHub Pages</li>
-                    </ul>
-                </article>
-
-                <article class="skill-card">
-                    <h3><i class="fas fa-shield-alt"></i> Cybersecurity</h3>
-                    <ul>
-                        <li>Security Concepts</li>
-                        <li>Network Security Basics</li>
-                        <li>Data Protection</li>
-                        <li>Vulnerability Assessment</li>
-                    </ul>
-                </article>
-
-                <article class="skill-card">
-                    <h3><i class="fas fa-user-tie"></i> Soft Skills</h3>
-                    <ul>
-                        <li>Communication</li>
-                        <li>Teamwork & Collaboration</li>
-                        <li>Problem Solving</li>
-                        <li>Time Management</li>
-                        <li>Attention to Detail</li>
-                    </ul>
-                </article>
-
-                <article class="skill-card">
-                    <h3><i class="fas fa-palette"></i> Design Tools</h3>
-                    <ul>
-                        <li>Canva</li>
-                        <li>Microsoft Office</li>
-                        <li>Figma</li>
-                        <li>Adobe XD</li>
-                    </ul>
-                </article>
+        <div class="skills-grid">
+            <!-- Programming -->
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3 class="skill-title">Programming</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-badge">C++</span></li>
+                    <li><span class="skill-badge">Object-Oriented Programming</span></li>
+                    <li><span class="skill-badge">File Handling</span></li>
+                    <li><span class="skill-badge">CRUD Operations</span></li>
+                    <li><span class="skill-badge">Data Structures</span></li>
+                    <li><span class="skill-badge">Functions & Arrays</span></li>
+                </ul>
             </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <h2>Projects</h2>
             
-            <div class="filter-buttons">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="cpp">C++</button>
-                <button class="filter-btn" data-filter="web">Web</button>
-                <button class="filter-btn" data-filter="academic">Academic</button>
+            <!-- Development Tools -->
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3 class="skill-title">Development Tools</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-badge">Git</span></li>
+                    <li><span class="skill-badge">GitHub</span></li>
+                    <li><span class="skill-badge">Visual Studio Code</span></li>
+                    <li><span class="skill-badge">Microsoft Visual Studio</span></li>
+                    <li><span class="skill-badge">Command Line</span></li>
+                </ul>
             </div>
-
-            <div class="projects-grid">
-
-                <article class="project-card" data-category="cpp">
-                    <div class="project-header">
-                        <h3>Library Management System</h3>
-                        <span class="category-badge">C++</span>
-                    </div>
-                    <p>
-                        A comprehensive console-based library management system developed using C++ with complete CRUD operations, 
-                        Object-Oriented Programming principles, and file handling for persistent data storage.
-                    </p>
-                    <ul class="tech-stack">
-                        <li>C++</li>
-                        <li>OOP</li>
-                        <li>File Handling</li>
-                    </ul>
-                    <div class="project-footer">
-                        <a href="https://github.com/hiramuqaddas09-source" class="project-link">View Code</a>
-                    </div>
-                </article>
-
-                <article class="project-card" data-category="cpp">
-                    <div class="project-header">
-                        <h3>Student Management System</h3>
-                        <span class="category-badge">C++</span>
-                    </div>
-                    <p>
-                        A console-based student management application built with C++ featuring student record management, 
-                        grade tracking, and data persistence through file operations.
-                    </p>
-                    <ul class="tech-stack">
-                        <li>C++</li>
-                        <li>CRUD Operations</li>
-                        <li>Data Management</li>
-                    </ul>
-                    <div class="project-footer">
-                        <a href="https://github.com/hiramuqaddas09-source" class="project-link">View Code</a>
-                    </div>
-                </article>
-
-                <article class="project-card" data-category="academic">
-                    <div class="project-header">
-                        <h3>Mental Health App</h3>
-                        <span class="category-badge">Academic</span>
-                    </div>
-                    <p>
-                        An academic software project focused on mental well-being, designed to promote awareness and provide resources 
-                        for mental health support and wellness.
-                    </p>
-                    <ul class="tech-stack">
-                        <li>Software Design</li>
-                        <li>User-Centric Design</li>
-                        <li>Research</li>
-                    </ul>
-                    <div class="project-footer">
-                        <a href="https://github.com/hiramuqaddas09-source" class="project-link">View Project</a>
-                    </div>
-                </article>
-
-                <article class="project-card" data-category="web">
-                    <div class="project-header">
-                        <h3>Food Nutrition Website</h3>
-                        <span class="category-badge">Web</span>
-                    </div>
-                    <p>
-                        A responsive informational website providing nutritional information and healthy lifestyle tips. 
-                        Built with HTML, CSS, and JavaScript with mobile-first design approach.
-                    </p>
-                    <ul class="tech-stack">
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Responsive Design</li>
-                    </ul>
-                    <div class="project-footer">
-                        <a href="https://github.com/hiramuqaddas09-source" class="project-link">View Site</a>
-                    </div>
-                </article>
-
-                <article class="project-card" data-category="cpp">
-                    <div class="project-header">
-                        <h3>Tic Tac Toe Game</h3>
-                        <span class="category-badge">C++</span>
-                    </div>
-                    <p>
-                        An interactive console-based Tic Tac Toe game developed in C++ with player vs computer gameplay, 
-                        win detection algorithms, and user-friendly interface.
-                    </p>
-                    <ul class="tech-stack">
-                        <li>C++</li>
-                        <li>Game Logic</li>
-                        <li>Algorithms</li>
-                    </ul>
-                    <div class="project-footer">
-                        <a href="https://github.com/hiramuqaddas09-source" class="project-link">View Code</a>
-                    </div>
-                </article>
-
+            
+            <!-- Professional Skills -->
+            <div class="skill-category">
+                <div class="skill-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3 class="skill-title">Professional Skills</h3>
+                <ul class="skill-list">
+                    <li><span class="skill-badge">Communication</span></li>
+                    <li><span class="skill-badge">Problem Solving</span></li>
+                    <li><span class="skill-badge">Teamwork</span></li>
+                    <li><span class="skill-badge">Time Management</span></li>
+                    <li><span class="skill-badge">Documentation</span></li>
+                    <li><span class="skill-badge">Fast Learner</span></li>
+                </ul>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <p class="contact-intro">I'd love to hear from you! Feel free to reach out for collaborations or just a friendly hello.</p>
+<!-- Projects Section -->
+<section class="projects" id="projects">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Academic and practical work</p>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                </div>
+                <h3 class="project-title">Library Management System</h3>
+                <p class="project-description">A comprehensive console-based application featuring complete CRUD operations, OOP principles, and persistent file-based data storage.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">C++</span>
+                    <span class="tech-badge">OOP</span>
+                    <span class="tech-badge">File I/O</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/hiramuqaddas09-source" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>View Code</span>
+                    </a>
+                </div>
+            </article>
             
-            <div class="contact-content">
-                <div class="contact-info">
-                    <article class="contact-card">
+            <!-- Project 2 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+                <h3 class="project-title">Student Management System</h3>
+                <p class="project-description">Console-based student record management application with grade tracking, data validation, and file persistence.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">C++</span>
+                    <span class="tech-badge">Data Management</span>
+                    <span class="tech-badge">CRUD</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/hiramuqaddas09-source" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>View Code</span>
+                    </a>
+                </div>
+            </article>
+            
+            <!-- Project 3 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <h3 class="project-title">Mental Health App</h3>
+                <p class="project-description">Academic software project focused on mental well-being, promoting awareness and providing resources for wellness support.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">Software Design</span>
+                    <span class="tech-badge">User Research</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/hiramuqaddas09-source" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>View Project</span>
+                    </a>
+                </div>
+            </article>
+            
+            <!-- Project 4 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                </div>
+                <h3 class="project-title">Food Nutrition Website</h3>
+                <p class="project-description">Responsive informational website providing nutritional guidance and healthy lifestyle tips using modern web technologies.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">Responsive</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/hiramuqaddas09-source" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>View Site</span>
+                    </a>
+                </div>
+            </article>
+            
+            <!-- Project 5 -->
+            <article class="project-card">
+                <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                </div>
+                <h3 class="project-title">Tic Tac Toe Game</h3>
+                <p class="project-description">Interactive console-based game featuring player vs computer gameplay, win detection algorithms, and intelligent AI logic.</p>
+                <div class="project-tech">
+                    <span class="tech-badge">C++</span>
+                    <span class="tech-badge">Algorithms</span>
+                    <span class="tech-badge">Logic</span>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/hiramuqaddas09-source" class="project-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        <span>View Code</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Education Section -->
+<section class="education" id="education">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">Academic background</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3 class="education-title">BS Software Engineering</h3>
+                    <p class="education-institution">University of Sahiwal</p>
+                    <div class="education-meta">
+                        <span class="education-meta-item">
+                            <i class="fas fa-chart-line"></i>
+                            CGPA: 3.56/4.00
+                        </span>
+                        <span class="education-meta-item">
+                            <i class="fas fa-book"></i>
+                            5th Semester
+                        </span>
+                    </div>
+                    <p class="education-duration">
+                        <i class="fas fa-calendar"></i>
+                        2024 – 2028 (Expected)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications Section -->
+<section class="certifications" id="certifications">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional credentials</p>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h3 class="cert-name">Adobe Graphic Designing</h3>
+                <p class="cert-issuer">Adobe Academy</p>
+                <p class="cert-description">Professional certificate in graphic design fundamentals and visual communication.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Let's connect and explore opportunities</p>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
                         <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p><a href="mailto:hiramuqaddas09@gmail.com">hiramuqaddas09@gmail.com</a></p>
-                    </article>
-
-                    <article class="contact-card">
-                        <i class="fas fa-phone"></i>
-                        <h3>Phone</h3>
-                        <p><a href="tel:+923046949990">+92 304 6949990</a></p>
-                    </article>
-
-                    <article class="contact-card">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Location</h3>
-                        <p>Sahiwal, Punjab, Pakistan</p>
-                    </article>
+                    </div>
+                    <div class="contact-details">
+                        <p class="contact-label">Email</p>
+                        <a href="mailto:hiramuqaddas09@gmail.com" class="contact-value">hiramuqaddas09@gmail.com</a>
+                    </div>
                 </div>
-
-                <form class="contact-form" id="contactForm" novalidate>
-                    <div class="form-group">
-                        <label for="name">Name *</label>
-                        <input type="text" id="name" name="name" required aria-required="true">
-                        <span class="error-message" id="nameError"></span>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
                     </div>
-
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required aria-required="true">
-                        <span class="error-message" id="emailError"></span>
+                    <div class="contact-details">
+                        <p class="contact-label">Phone</p>
+                        <a href="tel:+923046949990" class="contact-value">+92 304 6949990</a>
                     </div>
-
-                    <div class="form-group">
-                        <label for="subject">Subject *</label>
-                        <input type="text" id="subject" name="subject" required aria-required="true">
-                        <span class="error-message" id="subjectError"></span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
                     </div>
-
-                    <div class="form-group">
-                        <label for="message">Message *</label>
-                        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
-                        <span class="error-message" id="messageError"></span>
+                    <div class="contact-details">
+                        <p class="contact-label">Location</p>
+                        <p class="contact-value">Pakpattan, Punjab, Pakistan</p>
                     </div>
-
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                    <div id="formMessage" class="form-message"></div>
-                </form>
+                </div>
             </div>
+            <form class="contact-form" id="contactForm" novalidate>
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                    <span class="form-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                    <span class="form-error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" id="subject" name="subject" class="form-input" required>
+                    <span class="form-error" id="subjectError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+                    <span class="form-error" id="messageError"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </div>
+</section>
 
-            <div class="social">
-                <a href="https://github.com/hiramuqaddas09-source" aria-label="GitHub Profile" title="GitHub">
+<!-- Social Links -->
+<section class="social-section">
+    <div class="container">
+        <div class="social-content">
+            <h3>Connect With Me</h3>
+            <div class="social-links">
+                <a href="https://github.com/hiramuqaddas09-source" class="social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/hira-muqaddas-cyber" aria-label="LinkedIn Profile" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/hira-muqaddas-cyber" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="https://twitter.com" aria-label="Twitter Profile" title="Twitter">
-                    <i class="fab fa-twitter"></i>
+                <a href="mailto:hiramuqaddas09@gmail.com" class="social-link" title="Email">
+                    <i class="fas fa-envelope"></i>
                 </a>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 </main>
 
-<footer role="contentinfo">
+<!-- Footer -->
+<footer class="footer">
     <div class="container">
-        <p>&copy; 2026 Hira Muqaddas. All rights reserved.</p>
-        <p>Designed & Developed by Hira Muqaddas</p>
+        <div class="footer-content">
+            <p class="footer-copyright">&copy; 2024 Hira Muqaddas. All rights reserved.</p>
+            <button class="back-to-top" id="backToTop" aria-label="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
     </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="scripts/main.js"></script>
 
 </body>
 </html>
